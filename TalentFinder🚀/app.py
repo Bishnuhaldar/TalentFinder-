@@ -11,7 +11,7 @@ df = pd.read_excel('emp1.xlsx')
 
 
 # Set up Google API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDLPW9L43--3z8rLcffglMQeUcSaXEwqdQ"
+os.environ['GOOGLE_API_KEY'] = "replace_with_Your_api_key"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Page configuration
